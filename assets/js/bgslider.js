@@ -48,5 +48,5 @@ let i = 0;
 function changePicture() {
   i++;
   if (i > images.length - 1) i = 0;
-  imageEl.style.backgroundImage = `url(../assets/img/bg/${images[i]})`;
+  imageEl.style.backgroundImage = `url(../img/bg/${images[i]})`;
 }
